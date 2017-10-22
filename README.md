@@ -1,1 +1,1 @@
-# edin93.github.com
+# edin93's first gomycode portfolio project
