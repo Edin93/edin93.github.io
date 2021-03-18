@@ -1,11 +1,19 @@
+:root {
+  --darker-blue: #111a20;
+  --dark-blue: #1b2933;
+  --light-blue: #436c88;
+  --green: #8ceeaa;
+}
+
+body {
+  background-color: var(--dark-blue);
+}
 
 main{
-  widows: 75%;
   margin-top: 100px;
-  margin-bottom: 22px;
-  margin-left: auto;
-  margin-right: auto;
+  margin-bottom: 100px;
 }
+
 .card{
   margin-bottom: 12px;
   height: 95% !important;

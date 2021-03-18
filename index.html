@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-<head lang="en">
+<head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" >
-  <title>Houssem | Portfolio</title>
+  <link rel="icon" type="image/png" href="./icons/favicon.ico" > 
+  <title>edin93 | Portfolio</title>
   <!-- link to third party styles -->
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <link rel="stylesheet" href="libs/bootstrap-4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="libs/bootstrap-4.6.0-dist/css/bootstrap.min.css">
   <!-- link to font-awesome -->
-  <link rel="stylesheet" type="text/css" href="libs/font-awesome-4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="libs/font-awesome-5.15.2/css/fontawesome.min.css">
   <!-- link to my own styles -->
   <link rel="stylesheet" href="styles/style.css">
 </head>
@@ -22,10 +23,11 @@
       </button>
       <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
         <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#about">ABOUT <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#portfolio">PORTFOLIO </a>
-          <a class="nav-item nav-link" href="#contact">CONTACT </a>
-          <a class="nav-item nav-link" href="#">BLOG </a>
+          <a class="nav-item nav-link" href="#about">ABOUT ME</a>
+          <a class="nav-item nav-link" href="#portfolio">PORTFOLIO</a>
+          <a class="nav-item nav-link" href="#resumt">RESUME</a>
+          <a class="nav-item nav-link" href="#articles">ARTICLES</a>
+          <a class="nav-item nav-link" href="#contact">CONTACT</a>
         </div>
       </div>
     </nav>
@@ -54,141 +56,13 @@
       </div>
     </div>
 
-    <!-- Porfolio section -->
-    
-    <h2 class="text-center mb-5" id="portfolio">Portfolio</h2>
-    <div class="row portfolio">
-      <div class="card-deck">
-        <div class="col-md-4 col-sm-6">
-          <div class="card">
-            <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Card image cap">
-            <div class="card-body">
-              <h4 class="card-title">Card title</h4>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6">
-          <div class="card">
-            <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Card image cap">
-            <div class="card-body">
-              <h4 class="card-title">Card title</h4>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6">
-          <div class="card">
-            <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Card image cap">
-            <div class="card-body">
-              <h4 class="card-title">Card title</h4>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6">
-          <div class="card">
-            <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Card image cap">
-            <div class="card-body">
-              <h4 class="card-title">Card title</h4>
-              <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6">
-          <div class="card">
-            <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Card image cap">
-            <div class="card-body">
-              <h4 class="card-title">Card title</h4>
-              <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 col-sm-6">
-          <div class="card">
-            <img class="card-img-top" src="http://via.placeholder.com/350x150" alt="Card image cap">
-            <div class="card-body">
-              <h4 class="card-title">Card title</h4>
-              <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-              <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Contact me section -->
-    
-    <h2 class="text-center mb-5">Contact</h2>
-    <div class="row contact mb-5" id="contact">
-      <div class="col-sm-6">
-        <form>
-          <fieldset >
-            <div class="form-group">
-              <input type="text" id="user_name" class="form-control" placeholder="Name">
-            </div>
-            <div class="form-group">
-              <input type="email" id="user_mail" class="form-control" placeholder="Email">
-            </div>
-            <div class="form-group">
-              <label for="user_msg">Your message:
-              </label>
-              <textarea class="form-control" id="user_msg" rows="3"></textarea>
-            </div>
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </fieldset>
-        </form>
-      </div>
-      <div class="col-sm-6">
-        <p class="m-5  text-center">
-          Want to get in touch with me? Be it to request more info about myself or my experience, to ask for my resume, tips on how to do certain things related to web web development just feel free to drop me a line anytime. I’m excited to bring my experience to the process of building amazing websites. I promise to reply ASAP
-        </p>
-      </div>
-    </div>
-  </div>
-
 </main>
 
-<!-- Footer section -->
-<footer>
-  <div class="container">
-    <div class="row text-center bg-dark text-white p-5">
-      <div class="col-sm-6">
-        <h2>About this page</h2>
-        <p>Made with
-          <i class="fa fa-headphones fa-2x mx-3" aria-hidden="true"></i>
-          and
-          <i class="fa fa-heart fa-2x mx-3" aria-hidden="true"></i>
-          By Edin93
-        </p>
-      </div>
-      <div class="col-sm-6">
-        <h2>My Social Media links</h2>
-        <a href="https://github.com/edin93" target="_blank">
-          <i class="fa fa-github fa-4x mr-4" aria-hidden="true"></i>
-        </a>
-        <a href="https://www.linkedin.com/in/houssem-eddine-ben-khalifa-b0a2a412b/" target="_blank">
-          <i class="fa fa-linkedin-square fa-4x mr-4" aria-hidden="true" mr-4></i>
-        </a>
-        <a href="https://www.quora.com/edin93" target="_blank">
-          <i class="fa fa-quora fa-4x mr-4" aria-hidden="true"></i>
-        </a>
-      </div>
-    </div>
-  </div>
-</footer>
-
-
 <!-- link to third party scripts -->
-<script src="libs/jquery3.2.1/jquery-3.2.1.min.js"></script>
-<script src="libs/popper1.12.5/popper.min.js"></script>
-<script src="libs/bootstrap-4.0.0/js/bootstrap.min.js"></script>
+<script src="libs/jquery3.5.1/jquery-3.5.1.min.js"></script>
+<!-- <script src="libs/popper1.16.1/popper.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="libs/bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
 <!-- link to my own scripts -->
-<script src="scripts/main.js"></script>
 </body>
 </html>
