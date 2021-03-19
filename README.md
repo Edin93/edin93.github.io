@@ -1,1 +1,4 @@
-# edin93's first gomycode portfolio project
+# EDIN93 PORTFOLIO WEBSITE
+
+#### YOU CAN ACCESS IT THROUGHT THE LINK BELOW
+* [EDIN93](https://edin93.github.io)

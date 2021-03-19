@@ -1,68 +1,323 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" >
-  <link rel="icon" type="image/png" href="./icons/favicon.ico" > 
-  <title>edin93 | Portfolio</title>
-  <!-- link to third party styles -->
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-  <link rel="stylesheet" href="libs/bootstrap-4.6.0-dist/css/bootstrap.min.css">
-  <!-- link to font-awesome -->
-  <link rel="stylesheet" type="text/css" href="libs/font-awesome-5.15.2/css/fontawesome.min.css">
-  <!-- link to my own styles -->
-  <link rel="stylesheet" href="styles/style.css">
-</head>
-<body>
-  <!-- Page Header -->
-  <header id="navbar-header">
-    <nav class="navbar fixed-top navbar-expand-sm navbar-dark bg-dark">
-      <a class="navbar-brand" href="#portfolio">My Portfolio</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link" href="#about">ABOUT ME</a>
-          <a class="nav-item nav-link" href="#portfolio">PORTFOLIO</a>
-          <a class="nav-item nav-link" href="#resumt">RESUME</a>
-          <a class="nav-item nav-link" href="#articles">ARTICLES</a>
-          <a class="nav-item nav-link" href="#contact">CONTACT</a>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Edin93 | Portfolio</title>
+        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">HOUSSEM EDDINE BEN KHALIFA</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/developer.png" alt="" /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" target="_blank" href="https://drive.google.com/file/d/1CXktNEjaEsUC4U68AtDP2YFze1a14VSn/view?usp=sharing">Resume</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Houssem Eddine
+                        <span class="text-primary">Ben Khalifa</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        Software Engineering Student at Holberton School
+                        <!-- <a href="mailto:name@email.com">name@email.com</a> -->
+                    </div>
+                    <p class="lead mb-5">
+                        I am a Fullstack Software Engineer, with 2 years of experience working with Javascript technologies.
+                        I've mainly worked with ReactJS, NodeJS, SQL and MongoDB, but I have also created a variety of projects in Python, C and Linux.<br>
+                        Meanwhile, I'm looking for a fulltime position preferably working with Javascript or Python. Where I could add value to the team and grow as developer.<br>
+                        In my past academic and professional experiences, I've worked with a variety of people from different backgrounds.<br>
+                        I consider myself as a versatile and curious individual.<br><br>
+                        You can view or download my resume <a target="_blank" href="https://drive.google.com/file/d/1CXktNEjaEsUC4U68AtDP2YFze1a14VSn/view?usp=sharing">HERE</a>
+                    </p>
+                    <div class="social-icons">
+                        <a class="social-icon" target="_blank" href="https://www.linkedin.com/in/ben-khalifa-houssem-eddine"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" target="_blank" href="https://github.com/Edin93"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" target="_blank" href="https://twitter.com/h_edin93"><i class="fab fa-twitter"></i></a>
+                        <a class="social-icon" target="_blank" href="https://medium.com/@edin93"><i class="fab fa-medium"></i></a>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Frontend ReactJS Developer</h3>
+                            <div class="subheading mb-3">suivi.co</div>
+                            <p>
+                                <ul>
+                                    <li>suivi.co is a collaborative action management & tracking solution.</li>
+                                    <li>The app was built with AngularJS and I joined the team as the only ReactJS developer.</li>
+                                    <li>Worked in an office with remote teams in Tunis and France.</li>
+                                    <li>Created the new web app components and features using HTML, CSS, JS, Sass and ReactJS.</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">June 2018 - September 2019</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">FullStack Javascript developer & Teaching Assistant</h3>
+                            <div class="subheading mb-3">Go My Code</div>
+                            <p>
+                                <ul>
+                                    <li>Created a full stack web application in MERN STACK.</li>
+                                    <li>Built web pages and components in HTML, CSS, JS & React for different projects.</li>
+                                    <li>Taught students web technologies.</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">December 2017 - May 2018</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Network Technician Intern</h3>
+                            <div class="subheading mb-3">Telecommunication Companies, Banks and Administrations</div>
+                            <p>
+                                <ul>
+                                    <li>During my Network Infrastructure studying, I interned for over a year at different companies and banks.</li>
+                                    <li>I did the majority of my internships at Tunisie Telecom, where I worked with different team at various departments.</li>
+                                    <li>I did intern for STB Bank, BIAT Bank and The National Social Security Administration.</li>
+                                    <li>To find out more about what I did at each internship, check my LinkedIn profile.</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">December 2014 - December 2016</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Holberton School - Tunis</h3>
+                            <div class="subheading mb-3">Full Stack Web Development</div>
+                            <div>
+                                <p>Covered a lot of technical concepts, algorithms & DS and built different projects with the following technologies:</p>
+                                <ul>
+                                    <li>HTML, CSS Bootstrap & Responsive Design.</li>
+                                    <li>Modern Javascript</li>
+                                    <li>React / Redux</li>
+                                    <li>Node.js / Express.js</li>
+                                    <li>Redis</li>
+                                    <li>Data structures & Algorithms</li>
+                                    <li>MySQL / MongoDB</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">July 2020 - May 2021</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Holberton School - Tunis</h3>
+                            <div class="subheading mb-3">Software Engineering & Computer Science</div>
+                            <div>Holberton school is a peer-learning, project-guided, full stack software engineering school founded in San Francisco, USA</div>
+                            <div>
+                                <p>Some of the school Projects:<p>
+                                <ul>
+                                    <li>Implement multiple sorting algorithms and data structures (Arrays, Stack, Queues, Heap, Merge, Quick, Binary trees, Linked Lists...).</li>
+                                    <li>Build a replication of the printf() function</li>
+                                    <li>Recreate a simple shell program in a Linux environment</li>
+                                    <li>Build a Monty Interpreter.</li>
+                                </ul>
+                                <p>Covered Technologies:</p>
+                                <ul>
+                                    <li>C, Python, Bash, Linux.</li>
+                                    <li>Data Structures & algorithms.</li>
+                                    <li>MySQL, DevOps...</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">September 2019 - June 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">CSFT Cite elKhadhra - Tunis</h3>
+                            <div class="subheading mb-3">Infrastructure & Access Network</div>
+                            <div>Obtained an Associate's Degree to become a network and infrastructure technician.</div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">April 2014 - December 2016</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-react"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-cuttlefish"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-linux"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-server"></i></li>
+                    </ul>
+                    <div class="subheading mb-3">Programming Summary & Preferences</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Worked on various projects with Javascript, Python, C and Linux.
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Most comfortable working with Javascript and Python technologies.
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Prefer working on web applications development.
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Focusing on web development with ReactJS and other Python & Javascript backend technologies.
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Interested in mobile app development with React Native.
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Aiming to get better at Responsive Design.
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Eager to learn other web technologies like Ruby and Go...
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>
+                        Apart from being a Software Engineer, I enjoy most of my time being outdoors. In the weekend, I go hicking in the countryside, going on bicycle rides or learning about Stoicism and Psychology.<br>
+                        During the warmer months here in Tunisia, I enjoy camping, exploring new areas or chilling on the beach.
+                    </p>
+                    <p class="mb-0">
+                        After a long work day, I usually go to the gym, to a dancing class or hangout with my friends.<br>
+                        I spend a good amount of my free time exploring the latest technology advancements in the software engineering world.
+                    </p>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- portfolio-->
+            <section class="resume-section" id="portfolio">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Portfolio</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">AirBnB Clone</h3>
+                            <div class="subheading mb-3">School project</div>
+                            <div>
+                                <p>
+                                    This is a guided project, divided into smaller project during the second half of the foundation year at Holberton School.
+                                </p>
+                                <p>
+                                    You can view the full project on <a target="_blank" href="https://github.com/Edin93/AirBnB_clone_v3">Github</a>
+                                </p>
+                                <p>
+                                    This is a simple AirBnB clone that is mainly made of these components:
+                                </p>
+                                <ul>
+                                    <li>A command interpreter to manipulate data without a visual interface, like in a Shell (perfect for development and debugging)</li>
+                                    <li>A website (the front-end) that shows the final product to everybody: static and dynamic</li>
+                                    <li>A database or files that store data (data = objects)</li>
+                                    <li>An API that provides a communication interface between the front-end and your data (retrieve, create, delete, update them).</li>
+                                </ul>
+                                <p>
+                                    Tech Stack
+                                </p>
+                                <ul>
+                                    <li>HTML, CSS, JS</li>
+                                    <li>Python, Flask</li>
+                                    <li>MySQL</li>
+                                    <li>Bootstrap</li>
+                                </ul>
+                                <p>
+                                    Screen Shots
+                                </p>
+                                <div class="text-center">
+                                    <figure>
+                                        <img src="./assets/img/airbnb_clone_architecture.png" alt="AirBnB Architecture">
+                                        <figcaption class="text-center">The AirBnB full architecture</figcaption>
+                                    </figure>
+                                    <figure>
+                                        <img src="./assets/img/airbnb_clone_frontend.jpg" alt="AirBnB Frontend screenshot">
+                                        <figcaption class="text-center">A screenshot of the AirBnB frontend</figcaption>
+                                    </figure>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">February 2020 - May 2020</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- contact-->
+            <section class="resume-section" id="contact">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Contact</h2>
+                    <p class="lead mb-5">
+                        You can contact me through my email <a href="mailto:houssem.eddine.ben.khalifa@outlook.com">houssem.eddine.ben.khalifa@outlook.com</a>
+                    </p>
+                    <p class="lead mb-4">
+                        Also you can reach me out on the following platforms
+                    </p>
+                    <div class="social-icons">
+                        <a class="social-icon" target="_blank" href="https://www.linkedin.com/in/ben-khalifa-houssem-eddine"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" target="_blank" href="https://twitter.com/h_edin93"><i class="fab fa-twitter"></i></a>
+                        <a class="social-icon" target="_blank" href="https://github.com/Edin93"><i class="fab fa-github"></i></a>
+                        <a class="social-icon" target="_blank" href="https://medium.com/@edin93"><i class="fab fa-medium"></i></a>
+                    </div>
+                </div>
+            </section>
         </div>
-      </div>
-    </nav>
-  </header>
-
-  <!--  Main section of the page -->
-
-  <main>
-
-    <div class="container">
-
-      <!-- about me section -->
-
-      <div class="row about" id="about">
-        <div class="col-sm-3 text-center">
-          <img src="images/me.png" alt="my face image" title="myself" class="img-fluid rounded-circle">
-        </div>
-        <div class="col-sm-9">
-          <p class="text-center">
-           Full-Stack JS developer apprentice, working on different projects and learning HTML, CSS and JS frameworks and libraries. I am very curious and devoted to function programming and more advanced projects. Don't forget to get in touch.
-           <hr>
-         </p>
-         <h3 class="text-center">
-          FULLSTACK Javascript Developer
-        </h3>
-      </div>
-    </div>
-
-</main>
-
-<!-- link to third party scripts -->
-<script src="libs/jquery3.5.1/jquery-3.5.1.min.js"></script>
-<!-- <script src="libs/popper1.16.1/popper.min.js"></script> -->
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="libs/bootstrap-4.6.0-dist/js/bootstrap.min.js"></script>
-<!-- link to my own scripts -->
-</body>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
 </html>
