@@ -10112,3 +10112,19 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+/* MY CODE */
+
+#resume-btn {
+  background-color: #3c87c0 !important;
+  border-radius: 25px;
+  padding: 12px 30px;
+  margin-left: 10px;
+  box-shadow: #adb5bd 8px 8px 20px;
+}
+
+#resume-btn a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
